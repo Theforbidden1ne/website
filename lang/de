@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCMP-Server</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #1a1a1a; color: white; text-align: center; padding: 50px; }
+        .container { max-width: 800px; margin: auto; background: #2a2a2a; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { color: #ff6600; }
+        .btn { display: inline-block; padding: 15px 25px; background: #ff6600; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background: #e65c00; }
+        .server-info { margin-top: 30px; text-align: left; background: #333; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Willkommen bei BeamClub!</h1>
+        <p>Werde Teil unserer Community und genieße High-Speed-Rennen und spektakuläre Crashs!</p>
+        
+        <div style="margin: 40px 0; border: 2px dashed #ff6600; padding: 20px; border-radius: 10px;">
+            <h3>Benutzerdefinierten Client herunterladen</h3>
+            <p>Dies ist der modifizierte Launcher unseres Servers, der für den Beitritt erforderlich ist.</p>
+            
+            <a href="https://github.com/Theforbidden1ne/website/releases/download/alpha/BCMP-Launcher-0.3.2.exe" class="btn">Custom Launcher herunterladen (.exe)</a>
+        
+            <div style="font-size: 0.8em; color: #aaa; margin-top: 15px;">
+                <p><strong>Hinweis:</strong> Da es sich um einen benutzerdefinierten Build handelt, könnten Windows oder Chrome die Datei als "unbekannt" markieren. 
+                Eventuell musst du auf "Behalten" oder "Trotzdem ausführen" klicken, um die Installation abzuschließen.</p>
+            </div>
+        </div>
+
+        <div class="server-info">
+            <h3>Verbinde dich mit uns</h3>
+            <a href="https://discord.gg/N9TcHfSzWt" style="color: #5865F2; text-decoration: none; font-weight: bold;">Besuche unseren Discord-Server</a>
+            
+            <hr style="border: 0; border-top: 1px solid #444; margin: 15px 0;">
+            
+            <h3>So trittst du bei</h3>
+            <ol style="text-align: left; line-height: 1.6;">
+                <li>Lade den oben genannten benutzerdefinierten Client herunter.</li>
+                <li>Starte das Spiel und öffne das Multiplayer-Menü.</li>
+                <li>Suche nach <strong>[Dein Servername]</strong> oder nutze "Direct Connect".</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
