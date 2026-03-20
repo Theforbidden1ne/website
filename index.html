@@ -11,6 +11,11 @@
         .btn { display: inline-block; padding: 15px 25px; background: #ff6600; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; transition: 0.3s; }
         .btn:hover { background: #e65c00; }
         .server-info { margin-top: 30px; text-align: left; background: #333; padding: 15px; border-radius: 5px; }
+        
+        /* New styling for the VirusTotal link */
+        .vt-link { color: #00aaff; text-decoration: none; font-size: 0.9em; }
+        .vt-link:hover { text-decoration: underline; }
+        .footer-note { margin-top: 40px; border-top: 1px solid #444; padding-top: 20px; color: #888; }
     </style>
 </head>
 <body>
@@ -29,6 +34,7 @@
                 You may need to click "Keep" or "Run anyway" to install.</p>
             </div>
         </div>
+
         <div class="server-info">
             <h3>Connect With Us</h3>
             <iframe src="https://discord.com/widget?id=1438002844585427006&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
@@ -39,9 +45,16 @@
             <ol style="text-align: left; line-height: 1.6;">
                 <li>Download the custom client above.</li>
                 <li>Launch the game and navigate to the Multiplayer menu.</li>
-                <li>Goto direct connection</li>
-                <li>Enter the IP and PORT that are shown in the client to join</li>
+                <li>Go to direct connection.</li>
+                <li>Enter the IP and PORT that are shown in the client to join.</li>
             </ol>
+        </div>
+
+        <div class="footer-note">
+            <p>Security is our priority. View the latest automated safety report:</p>
+            <a href="https://www.virustotal.com/gui/file/3e11c50a7ee8b9891d356e66ed1e14b10615f03a405ceccac8cabc5155d5cbba" target="_blank" class="vt-link">
+                🛡️ View VirusTotal Scan Results
+            </a>
         </div>
     </div>
 </body>
